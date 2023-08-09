@@ -6,7 +6,7 @@ LOOP: while the ship is not sunk
         TELL user to enter a valid number
     ELSE
         ADD one to guesses
-        IF the suer's guess matches a location
+        IF the user's guess matches a location
             ADD one to the number of hits
             IF number of hits is 3
                 SET isSunk to true
