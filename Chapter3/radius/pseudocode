@@ -1,0 +1,12 @@
+FUNCTION: calculate area with parameter to radius
+        DECLARE area variable
+        COMPARE the radius to less than or equal to 0 for valid input
+
+        IF radius is invalid
+            return 0
+        ELSE 
+            calculate area to pi * radius * radius
+            then return the area
+DECLARE radius as a variable with fixed number of 5.2
+DECLARE theArea as a variable equaling to function and its radius
+console log outputting the area's radius in a message
